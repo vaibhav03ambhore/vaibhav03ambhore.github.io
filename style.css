@@ -68,17 +68,19 @@ input:focus{
 button{
     background-color: green;
     border: transparent solid 2px;
-    border-radius: 3px;
+    border-radius: 9px;
     padding: 4px;
     color: white;
     transition: 0.3s ease-in;
+    box-shadow: 0 0 8px green;
 }
 
 button:hover{
-    background-color: #ccc;
+    /* background-color: #ccc;
     border: 2px solid green;
     color:black;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out; */
+    box-shadow: none;
     cursor: pointer;
 }
 
